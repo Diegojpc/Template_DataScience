@@ -1,7 +1,9 @@
-name: project-Spotify
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: cookiecutter-conda-data-science
 channels:
-  - conda-forge
-  - defaults
+- anaconda
+- conda-forge
+- defaults
 dependencies:
-  - cookiecutter=1.7.3
-prefix: C:\Users\user\anaconda3\envs\project-Spotify
+- cookiecutter
