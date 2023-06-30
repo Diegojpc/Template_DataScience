@@ -19,6 +19,7 @@ dependencies:
   - missingno
   {% endif -%}
   - nbdime
+  - openpyxl
   - numpy
   - pandas
   {% if cookiecutter.project_packages == "All" -%}
